@@ -12,7 +12,7 @@ I am constantly seeking new challenges and opportunities to expand my skill set 
 - **Backend Development:** ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 - **Database Management:** ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 - **Tools and Technologies:** ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Microsoft Office](https://img.shields.io/badge/-Microsoft%20Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white) ![CI/CD](https://img.shields.io/badge/-CI%2FCD-0052CC?style=flat-square&logo=atlassian&logoColor=white) 
-- **Web Development:** Web Design, Cookie-Based Authentication, CRUD Operations
+- **Web Development:** Web Design, Cookie/Token-Based Authentication, CRUD Operations
 - **Soft Skills:** Problem-Solving, Team Collaboration, Leadership
 
 ## 💼 Projects
