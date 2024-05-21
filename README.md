@@ -1,4 +1,4 @@
-# Hi there, I'm Yash Dafade 👋
+# Hi there, I'm Yash Dafade  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
 I'm a passionate Full Stack Web Developer specializing in the MERN stack (ReactJS, Node.js, Express.js, and MySQL). With a strong foundation in both frontend and backend development, I excel at creating dynamic, user-friendly web applications that solve real-world problems.
 
