@@ -12,7 +12,7 @@ I am constantly seeking new challenges and opportunities to expand my skill set 
 - **Backend Development:** Node.js, Express.js, MySQL, Java
 - **Database Management:** MySQL
 - **Tools and Technologies:** Git, GitHub, Microsoft Office, CI/CD 
-- **Web Development:** Web Design, Cookie-Based Authentication, CRUD Operations
+- **Web Development:** Web Design, Cookie and Token Based Authentication, CRUD Operations
 - **Soft Skills:** Problem-Solving, Team Collaboration, Leadership
 
 ## 💼 Projects
