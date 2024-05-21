@@ -1,9 +1,8 @@
 # Hi there, I'm Yash Dafade <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-![Profile Views](https://komarev.com/ghpvc/?username=yashdafade&style=flat-square&color=blue)
+
 I'm a passionate Full Stack Web Developer specializing in the MERN stack (ReactJS, Node.js, Express.js, and MySQL). With a strong foundation in both frontend and backend development, I excel at creating dynamic, user-friendly web applications that solve real-world problems.
 
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yashdafade&show_icons=true&theme=radical)
+![Profile Views](https://komarev.com/ghpvc/?username=yashdafade&style=flat-square&color=blue)
 
 ## 🚀 About Me
 Currently, I am working on a comprehensive School Management Software project, where I have successfully developed and deployed a pre-admission console module that is live and operational at my first client school. This project showcases my ability to implement cookie-based authentication, manage CRUD operations, and develop robust, scalable solutions. I am now expanding the system to include an inventory management module for tracking books, uniforms, printing receipts, and storing various types of payment information.
