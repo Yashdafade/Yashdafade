@@ -5,9 +5,13 @@ I'm a passionate Full Stack Web Developer specializing in the MERN stack (ReactJ
 ![Profile Views](https://komarev.com/ghpvc/?username=yashdafade&style=flat-square&color=blue)
 
 ## 🚀 About Me
-Currently, I am working on a comprehensive School Management Software project, where I have successfully developed and deployed a pre-admission console module that is live and operational at my first client school. This project showcases my ability to implement cookie-based authentication, manage CRUD operations, and develop robust, scalable solutions. I am now expanding the system to include an inventory management module for tracking books, uniforms, printing receipts, and storing various types of payment information.
+I’m Yash Dafade — a passionate Full Stack Web Developer and AI enthusiast, currently working on a real-world School Management Software suite that’s live in production.
 
-I am constantly seeking new challenges and opportunities to expand my skill set and contribute to innovative projects. If you are looking for a dedicated and skilled Full Stack Web Developer to join your team, let's connect and explore how we can collaborate to create impactful solutions.
+I specialize in the **MERN stack**, but my journey has taken an exciting turn toward **Python-based AI/ML solutions**, especially in facial recognition and smart automation. I’ve built and deployed an **InsightFace-based attendance system** that uses deep learning to identify students via facial embeddings — seamlessly integrated into our Node.js backend via a Python FastAPI microservice.
+
+My role goes beyond just coding — I’ve been leading module-wise development, managing GitHub workflows (`dev` → `main`), setting up **CI/CD pipelines with Render & GitHub Actions**, and planning migration strategies to VPS hosting for performance optimization.
+
+I'm not just a techie — I'm a builder with vision, always looking ahead. If you're searching for someone who bridges the gap between web development and AI-driven innovation, then I’m your guy.
 
 ## 🔧 Technologies & Tools
 
