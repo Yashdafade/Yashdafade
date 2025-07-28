@@ -31,8 +31,8 @@ Git · GitHub · Postman/ThunderClient · VS Code · Linux · Microsoft Office
 **Stack:** React.js · Node.js · Express · MySQL · Python (FastAPI) · InsightFace · Git· GitHub
 
 **Highlights:**
-- Designed and developed core modules: Student/Teacher Enrollment, Fee Structure, Library, Inventory, Transport, Billing, Attendance(Face Recognition), Account
-- Integrated a **Python-based facial recognition system** using **InsightFace + OpenCV**
+- Designed and developed core modules: Student/Teacher Enrollment, Fee Structure, Library, Inventory, Transport, Billing, Accounts
+- Integrated a **Python-based facial recognition system** for Attendance Monitoring using **InsightFace + OpenCV**
 - Architected backend APIs with **role-based access**, JWT authentication, and secure CRUD operations
 - Built and deployed **CI/CD pipelines** using Git and Hostinger VPS(OS - UBUNTU)
 
