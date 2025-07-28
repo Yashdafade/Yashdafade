@@ -1,6 +1,6 @@
 # Hi there, I'm Yash Dafade <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
-I'm a passionate Full Stack Web Developer specializing in the MERN stack (ReactJS, Node.js, Express.js, and MySQL). With a strong foundation in both frontend, backend development, Cloud Automation. I excel at creating dynamic, user-friendly web applications that solve real-world problems.
+I'm a passionate Full Stack Web Developer specializing in the MERN stack (ReactJS, Node.js, Express.js, and MySQL). With a strong foundation in both frontend, backend development, Cloud Automation & DevOps(AWS,CI/CD,Docker,Kubernetes,Teraform). I excel at creating dynamic, user-friendly web applications that solve real-world problems.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=yashdafade&style=flat-square&color=blue)
 
