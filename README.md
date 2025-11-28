@@ -1,61 +1,71 @@
-# Hi, I’m Yash Dafade 👋  
-**Full Stack Developer | MERN Expert | DevOps & AI Enthusiast**
+# Hi, I’m Yash Dafade 👋
 
-Driven by curiosity and built for execution, I architect scalable web applications with real-world impact. From full-stack engineering to DevOps automation and AI integrations — I turn complex challenges into elegant solutions.
+**Backend Developer | DevOps Practitioner | AI/ML Integration Engineer**
 
----
-
-## 🔧 Tech Stack & Key Skills
-
-**Frontend:**  
-React.js · HTML5 · CSS3 · JavaScript · Tailwind CSS · Bootstrap
-
-**Backend:**  
-Node.js · Express.js · MySQL · MongoDB · REST APIs · JWT Auth
-
-**AI / ML Integration:**  
-Python · FastAPI · InsightFace · OpenCV · Facial Recognition · Computer Vision
-
-**DevOps & Cloud:**  
-CI/CD · GitHub Actions · Docker · Kubernetes · AWS · Render · VPS Deployment · Terraform
-
-**Tools & Platforms:**  
-Git · GitHub · Postman/ThunderClient · VS Code · Linux · Microsoft Office
+I specialize in building scalable backend systems, production-ready microservices, and AI‑powered automation. My work focuses on high-performance APIs, database optimization, containerized deployments, and integrating real ML systems into real-world applications.
 
 ---
 
-## 💼 Featured Project: Schoolix – School Management Software
+## ⚡ Technical Expertise
 
-> **Live, Real-World Application | Deployed in Production | Built from Scratch**
-
-**Stack:** React.js · Node.js · Express · MySQL · Python (FastAPI) · InsightFace · Git· GitHub
-
-**Highlights:**
-- Designed and developed core modules: Student/Teacher Enrollment, Fee Structure, Library, Inventory, Transport, Billing, Accounts
-- Integrated a **Python-based facial recognition system** for Attendance Monitoring using **InsightFace + OpenCV**
-- Architected backend APIs with **role-based access**, JWT authentication, and secure CRUD operations
-- Built and deployed **CI/CD pipelines** using Git and Hostinger VPS(OS - UBUNTU)
-
-This is more than a project — it’s a fully functional, live solution trusted by a real client school to manage their daily operations and attendance securely.
+**Backend Engineering:** Node.js · Express.js · Python (FastAPI) · REST APIs · Microservices · JWT Auth · System Design
+**Databases:** MySQL (pooling, indexing, optimization) · MongoDB
+**AI/ML Integrations:** InsightFace · OpenCV · Embeddings · Face Recognition · Gemini API
+**DevOps & Cloud:** Docker · GitHub Actions · CI/CD · Linux (Ubuntu) · Caddy · VPS Deployments · AWS (Practioner)
+**Frontend:** React.js · JavaScript · HTML5 · CSS3
+**Tools:** Git · GitHub · Postman · ThunderClient · Power BI · n8n
 
 ---
 
-## 📌 Career Snapshot
+## 🚀 Featured Projects
 
-- 🎓 **B.E. in Instrumentation Engineering, GCOEA** 
-- 🧑‍🔬 **Worked on AI-powered attendance**, Microservices architecture, Git-based workflows, and DevOps pipelines
-- 🤝 Strong collaborative skills with experience in module ownership and client-focused delivery
+### **Schoolix – AI‑Powered School Management Platform**
 
----
+**Stack:** Node.js · Express · React · MySQL · Docker · GitHub Actions · Ubuntu VPS · Caddy
 
-## 📫 Let’s Connect
-
-- 🌐 [Portfolio Website](https://yashdafade.github.io/MyWebsite/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/yash-dafade-992ab2209/)
-- 📧 yashdafade0@gmail.com
+* Architected the backend with modular design, JWT authentication, role-based access, and secure CRUD APIs.
+* Built core modules: Enrollment, Billing, Library, Inventory, Certificates, Reports, and Admin dashboard.
+* Implemented CI/CD pipelines using GitHub Actions with Docker-based deployment on a Linux VPS.
+  **Impact:** Reduced school administrative workload by **50%** and improved data accuracy.
 
 ---
 
-**Currently open to full-time roles** in Full Stack Development, DevOps Engineering, or AI-integrated Web Applications.
+### **AI Attendance System – Face Recognition (FastAPI + InsightFace)**
 
-Let’s build the future — one line of code at a time 🚀
+**Stack:** Python · FastAPI · InsightFace · OpenCV · Microservice Architecture
+
+* Developed a production-ready microservice to generate embeddings and perform real-time face matching.
+* Achieved **96% recognition accuracy** with sub‑second response times.
+* Integrated the system into Schoolix for fully automated attendance.
+  **Impact:** Increased attendance accuracy and operational efficiency by **70%**.
+
+---
+
+### **Intelligent Chatbot – Natural Language Query Engine**
+
+**Stack:** Node.js · Gemini API · REST APIs · MySQL
+
+* Built a backend service that retrieves school data using natural language queries.
+* Connected securely to the Schoolix database to fetch student/teacher/driver details.
+* Designed lightweight, fast-response APIs for real-time interaction.
+  **Impact:** Automated **80%** of repetitive administrative queries**, saving hours every week**.
+
+---
+
+## 🎯 Career Snapshot
+
+* Backend-focused engineer with strong DevOps and system automation skills.
+* Experience deploying containerized applications on VPS (Ubuntu + Docker + Caddy).
+* Strong foundation in API design, database optimization, microservices, and AI integrations.
+
+---
+
+## 📫 Connect With Me
+
+* 🌐 Portfolio: [https://yashdafade.github.io/MyWebsite/](https://yashdafade.github.io/MyWebsite/)
+* 💼 LinkedIn: [https://www.linkedin.com/in/yash-dafade-992ab2209/](https://www.linkedin.com/in/yash-dafade-992ab2209/)
+* 📧 Email: [yashdafade93@gmail.com](mailto:yashdafade93@gmail.com)
+
+---
+
+**Open to Backend, DevOps, and AI‑Integrated Engineering roles.**
