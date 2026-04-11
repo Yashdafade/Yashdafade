@@ -1,71 +1,85 @@
-# Hi, I’m Yash Dafade 👋
+# Hi, I'm Yash Dafade 👋
 
-**Backend Developer | DevOps Practitioner | AI/ML Integration Engineer**
+**Backend Developer · DevOps Practitioner · AI/ML Integration Engineer**
 
-I specialize in building scalable backend systems, production-ready microservices, and AI‑powered automation. My work focuses on high-performance APIs, database optimization, containerized deployments, and integrating real ML systems into real-world applications.
-
----
-
-## ⚡ Technical Expertise
-
-**Backend Engineering:** Node.js · Express.js · Python (FastAPI) · REST APIs · Microservices · JWT Auth · System Design
-**Databases:** MySQL (pooling, indexing, optimization) · MongoDB
-**AI/ML Integrations:** InsightFace · OpenCV · Embeddings · Face Recognition · Gemini API
-**DevOps & Cloud:** Docker · GitHub Actions · CI/CD · Linux (Ubuntu) · Caddy · VPS Deployments · AWS (Practioner)
-**Frontend:** React.js · JavaScript · HTML5 · CSS3
-**Tools:** Git · GitHub · Postman · ThunderClient · Power BI · n8n
+I build production-grade backend systems — from REST APIs and microservices to AI-powered automation. My focus is on clean architecture, real deployments, and integrating ML models into systems that actually run in production.
 
 ---
 
-## 🚀 Featured Projects
+## ⚡ Tech Stack
 
-### **Schoolix – AI‑Powered School Management Platform**
-
-**Stack:** Node.js · Express · React · MySQL · Docker · GitHub Actions · Ubuntu VPS · Caddy
-
-* Architected the backend with modular design, JWT authentication, role-based access, and secure CRUD APIs.
-* Built core modules: Enrollment, Billing, Library, Inventory, Certificates, Reports, and Admin dashboard.
-* Implemented CI/CD pipelines using GitHub Actions with Docker-based deployment on a Linux VPS.
-  **Impact:** Reduced school administrative workload by **50%** and improved data accuracy.
+**Backend:** Node.js · Express.js · Python (FastAPI) · REST APIs · Microservices · JWT Auth  
+**Databases:** PostgreSQL · MySQL · MongoDB · Supabase  
+**AI/ML:** InsightFace · OpenCV · Gemini API · Face Recognition · NL2SQL  
+**DevOps & Cloud:** Docker · GitHub Actions · CI/CD · Linux (Ubuntu) · Caddy · VPS · AWS  
+**Frontend:** React.js · JavaScript · HTML5 · CSS3  
+**Tools:** Git · Postman · Power BI · n8n
 
 ---
 
-### **AI Attendance System – Face Recognition (FastAPI + InsightFace)**
+## 🚀 Projects
 
-**Stack:** Python · FastAPI · InsightFace · OpenCV · Microservice Architecture
+### Schoolix — AI-Powered School Management Platform
+**Stack:** Node.js · Express · React · PostgreSQL · Docker · GitHub Actions · Ubuntu VPS · Caddy
 
-* Developed a production-ready microservice to generate embeddings and perform real-time face matching.
-* Achieved **96% recognition accuracy** with sub‑second response times.
-* Integrated the system into Schoolix for fully automated attendance.
-  **Impact:** Increased attendance accuracy and operational efficiency by **70%**.
+A production school ERP built as a freelance engagement. Handles student enrollment, billing, library, inventory, certificate generation, and reporting — deployed on a Hostinger VPS with Docker and Caddy reverse proxy.
+
+- Modular backend with JWT auth and role-based access control across admin, teacher, and staff roles
+- PostgreSQL database (Hostinger-managed) with optimized schema for multi-entity school data
+- CI/CD pipeline via GitHub Actions — push to main triggers a Docker build and zero-downtime deploy
+- **Impact:** Reduced administrative workload by 50%, improved data accuracy across departments
 
 ---
 
-### **Intelligent Chatbot – Natural Language Query Engine**
+### AI Attendance System — Face Recognition Microservice
+**Stack:** Python · FastAPI · InsightFace · OpenCV
 
-**Stack:** Node.js · Gemini API · REST APIs · MySQL
+A standalone microservice that handles face embedding generation and real-time identity matching. Integrated into Schoolix via REST — the Node.js backend delegates all biometric operations to this service.
 
-* Built a backend service that retrieves school data using natural language queries.
-* Connected securely to the Schoolix database to fetch student/teacher/driver details.
-* Designed lightweight, fast-response APIs for real-time interaction.
-  **Impact:** Automated **80%** of repetitive administrative queries**, saving hours every week**.
+- Generates and stores facial embeddings on enrollment; matches against stored vectors at attendance time
+- Sub-second response times with 96% recognition accuracy in production conditions
+- Fully decoupled — can be swapped or updated without touching the core ERP backend
+- **Impact:** Replaced manual roll calls; increased attendance accuracy by 70%
+
+---
+
+### Intelligent Chatbot — NL2SQL Query Engine
+**Stack:** Node.js · Gemini API (gemini-2.0-flash-lite) · PostgreSQL · REST
+
+A natural language interface layered over the Schoolix PostgreSQL database. Converts plain-text admin queries into valid SQL using Gemini with table relationship lineage rules and keyword-based intent resolution — no vector embeddings required.
+
+- Schema-aware prompt construction with explicit table relationship rules passed as context
+- Keyword routing determines query intent before hitting the LLM — reduces hallucination on structured data
+- Role-aware: responses are scoped to what the authenticated user's role can access
+- **Impact:** Automates 80% of repetitive admin queries without any SQL knowledge required
+
+---
+
+### BillDoc — Clinic Billing System
+**Stack:** React · Supabase · PostgreSQL · TipTap
+
+A billing and patient management system built for Resonique Homeopathic Care. Handles the full billing lifecycle from patient registration to payment tracking.
+
+- Custom charge line items with flexible billing form supporting variable pricing
+- Rich-text patient notes via TipTap editor — persisted per consultation record
+- Installment payment flows with partial payment tracking and outstanding balance views
+- Multi-doctor auth with role separation — each doctor sees only their patient records
+- **Impact:** Replaced manual paper-based billing; full clinic workflow now runs through BillDoc
 
 ---
 
 ## 🎯 Career Snapshot
 
-* Backend-focused engineer with strong DevOps and system automation skills.
-* Experience deploying containerized applications on VPS (Ubuntu + Docker + Caddy).
-* Strong foundation in API design, database optimization, microservices, and AI integrations.
+Backend-focused engineer with hands-on DevOps and AI integration experience. I've deployed containerized applications on Linux VPS (Docker + Caddy), built ML microservices in production, and integrated LLMs into real-world data workflows. Currently targeting backend and AI integration roles at 6+ LPA.
 
 ---
 
-## 📫 Connect With Me
+## 📫 Connect
 
-* 🌐 Portfolio: [https://portfolio-v5-vs.vercel.app/](https://portfolio-v5-vs.vercel.app/)
-* 💼 LinkedIn: [https://www.linkedin.com/in/yash-dafade-992ab2209/](https://www.linkedin.com/in/yash-dafade-992ab2209/)
-* 📧 Email: [yashdafade93@gmail.com](mailto:yashdafade93@gmail.com)
+- 🌐 Portfolio: https://portfolio-v5-vs.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/yash-dafade-992ab2209/
+- 📧 Email: yashdafade93@gmail.com
 
 ---
 
-**Open to Backend, DevOps, and AI‑Integrated Engineering roles.**
+**Open to Backend, DevOps, and AI-Integrated Engineering roles.**
