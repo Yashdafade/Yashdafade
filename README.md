@@ -1,76 +1,81 @@
 # Hi, I'm Yash Dafade 👋
 
-**Backend Developer · DevOps Practitioner · AI/ML Integration Engineer**
+**Backend Developer · DevOps · AI/ML Integration**
 
-I build production-grade backend systems — from REST APIs and microservices to AI-powered automation. My focus is on clean architecture, real deployments, and integrating ML models into systems that actually run in production.
+I build backend systems and AI-integrated applications — REST APIs, microservices, containerized deployments, and LLM/computer-vision integrations. Most of my projects are self-driven builds where I take an idea to a deployed, production-grade system to deepen my engineering depth across the full stack.
 
 ---
 
 ## ⚡ Tech Stack
 
-**Backend:** Node.js · Express.js · Python (FastAPI) · REST APIs · Microservices · JWT Auth  
-**Databases:** PostgreSQL · MySQL · MongoDB · Supabase  
-**AI/ML:** InsightFace · OpenCV · Gemini API · Face Recognition · NL2SQL  
-**DevOps & Cloud:** Docker · GitHub Actions · CI/CD · Linux (Ubuntu) · Caddy · VPS · AWS  
-**Frontend:** React.js · TypeScript · JavaScript · HTML5 · CSS3  
-**Tools:** Git · Postman · Power BI · n8n
+**Backend:** Node.js · Express.js · Python · FastAPI · REST APIs · Microservices · JWT · Role-Based Access Control
+**Databases:** PostgreSQL · MySQL · Supabase · MongoDB
+**AI/ML:** QLoRA Fine-Tuning · Hugging Face · InsightFace · OpenCV · Gemini API · NL2SQL · Embeddings
+**DevOps & Cloud:** Docker · GitHub Actions · CI/CD · Linux (Ubuntu) · Caddy · Nginx · VPS · AWS
+**Frontend:** React · TypeScript · Vite · Tailwind CSS
 
 ---
 
 ## 🚀 Projects
 
-### Schoolix — AI-Powered School Management Platform
-**Stack:** Node.js · Express · React · PostgreSQL · Docker · GitHub Actions · Ubuntu VPS · Caddy
+### TelcoBot-QLoRA — Fine-Tuned Customer Support LLM
+**Stack:** Python · Qwen2.5-1.5B · QLoRA · Hugging Face · AMD MI300X (ROCm)
 
-A production school ERP built as a freelance engagement. Handles student enrollment, billing, library, inventory, certificate generation, and reporting — deployed on a Hostinger VPS with Docker and Caddy reverse proxy.
+Fine-tuned Qwen2.5-1.5B-Instruct using QLoRA (4-bit NF4, LoRA r=16) on a 20k-example telecom support dataset, built during the TCS × AMD AI Hackathon 2026. Trained on an AMD MI300X GPU in under two hours.
 
-- Modular backend with JWT auth and role-based access control across admin, teacher, and staff roles
-- PostgreSQL database (Hostinger-managed) with optimized schema for multi-entity school data
-- CI/CD pipeline via GitHub Actions — push to main triggers a Docker build and zero-downtime deploy
-- **Impact:** Reduced administrative workload by 50%, improved data accuracy across departments
+- Worked through TRL/ROCm compatibility issues and switched to bfloat16 for stable inference
+- Measurable ROUGE improvements over the base model on held-out support queries
+- 🔗 [github.com/Yashdafade/TelcoBot-QLoRA](https://github.com/Yashdafade/TelcoBot-QLoRA)
 
 ---
 
-### AI Attendance System — Face Recognition Microservice
+### Face-Recognition-Microservice — Biometric Attendance Service
 **Stack:** Python · FastAPI · InsightFace · OpenCV
 
-A standalone microservice for face embedding generation and real-time identity matching. Integrated into Schoolix via REST — the Node.js backend delegates all biometric operations to this service.
+A standalone face-recognition microservice built to practice computer-vision integration and clean service boundaries. Generates 512-d ArcFace embeddings on enrollment and cosine-matches them at scan time.
 
-- Generates and stores facial embeddings on enrollment; matches against stored vectors at attendance time
-- Sub-second response times with 96% recognition accuracy in production conditions
-- Fully decoupled — can be swapped or updated without touching the core ERP backend
-- **Impact:** Replaced manual roll calls; increased attendance accuracy by 70%
-
----
-
-### Intelligent Chatbot — NL2SQL Query Engine
-**Stack:** Node.js · Gemini API (gemini-3.1-flash-lite-preview) · PostgreSQL · REST
-
-A natural language interface layered over the Schoolix PostgreSQL database. Converts plain-text admin queries into valid SQL using Gemini with table relationship lineage rules and keyword-based intent resolution — no vector embeddings required.
-
-- Schema-aware prompt construction with explicit table relationship lineage rules passed as context
-- Keyword routing determines query intent before hitting the LLM — reduces hallucination on structured data
-- Role-aware: responses are scoped to what the authenticated user's role can access
-- **Impact:** Automates 80% of repetitive admin queries without any SQL knowledge required
+- ~96% match accuracy with sub-second latency on a 200-face test set
+- Fully decoupled REST service — pluggable into any backend without code changes
+- 🔗 [github.com/Yashdafade/Face-Recognition-Microservice](https://github.com/Yashdafade/Face-Recognition-Microservice)
 
 ---
 
-### MediBill — Clinic Billing System
-**Stack:** React · TypeScript · Vite · Supabase · PostgreSQL
+### Schoolix — Full-Stack School Management Platform
+**Stack:** Node.js · Express · React · PostgreSQL · Docker · GitHub Actions · Caddy
 
-A general-purpose billing and patient management system — any doctor can register and start using it immediately. Handles the full billing lifecycle from patient registration to payment settlement.
+A full-stack ERP I designed end-to-end to learn production backend architecture and DevOps. Covers enrollment, billing, library, inventory, certificate generation, and reporting.
 
-- Custom charge line items with flexible billing form supporting variable pricing per consultation
-- Rich-text patient notes persisted per visit record
-- Installment payment flows with partial payment tracking and outstanding balance views
-- Multi-doctor auth with role separation — each doctor sees only their own patient records
-- **Live:** https://billing-system-pi-liart.vercel.app
+- JWT auth with role-based access control across admin, teacher, and staff roles
+- Containerized with Docker + Caddy, CI/CD via GitHub Actions on a Linux VPS
+- Private repo — architecture overview and walkthrough available on request
 
 ---
 
-## 🎯 Career Snapshot
+### Intelligent Chatbot — NL2SQL Query Engine (Schoolix module)
+**Stack:** Node.js · Gemini API (gemini-3.1-flash-lite-preview) · PostgreSQL
 
-Backend-focused engineer with hands-on DevOps and AI integration experience. I've deployed containerized applications on Linux VPS (Docker + Caddy), built ML microservices in production, and integrated LLMs into real-world data workflows. Currently targeting backend and AI integration roles at 6+ LPA.
+A natural-language interface over the Schoolix database, built to explore LLM-to-SQL translation without vector embeddings.
+
+- Schema-aware prompts with explicit table-relationship lineage rules passed as context
+- Keyword-based intent routing before the LLM call — reduces hallucination on structured queries
+- Role-aware: generated SQL is scoped to the authenticated user's access level
+
+---
+
+### MediBill — Clinic Billing App
+**Stack:** React · TypeScript · Vite · Supabase
+
+A billing and patient-management app I built to get hands-on with TypeScript, Supabase, and Postgres row-level security.
+
+- Custom charge line items, rich-text patient notes (TipTap), installment payment tracking
+- Row-level security isolating each user's records at the database layer
+- Private repo — built as a TypeScript + Supabase learning project
+
+---
+
+## 🛠 Other Builds
+- **caveman-antigravity** — a token-reduction skill for the Antigravity coding agent, cutting context usage on agentic coding tasks (inspired by the "caveman" skill pattern for Claude)
+- **yash.dev** — a VS Code-themed developer portfolio (React + Three.js)
 
 ---
 
@@ -82,4 +87,4 @@ Backend-focused engineer with hands-on DevOps and AI integration experience. I'v
 
 ---
 
-**Open to Backend, DevOps, and AI-Integrated Engineering roles.**
+**Open to Backend, DevOps, and AI-Integration Engineering roles.**
